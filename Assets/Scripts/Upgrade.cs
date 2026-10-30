@@ -53,7 +53,7 @@ public class Upgrade : MonoBehaviour
         TMP_Text buttonText = upgradeButton.GetComponentInChildren<TMP_Text>();
         if (buttonText != null)
         {
-            buttonText.text = "Upgrade - $" + upgradeCost;
+            buttonText.text = "Upgrade - " + upgradeCost;
         }
 
         upgradeButton.onClick.RemoveAllListeners();
